@@ -1,0 +1,19 @@
+Status: Succeeded
+Test Event Name: TestInvocation2
+
+Response:
+{
+  "statusCode": 200,
+  "body": "SUCCESS: Tagged Instance i-0b3a57feeae2b1872 with LaunchDate=2026-07-26 and Owner=DevOps-Automation"
+}
+
+The area below shows the last 4 KB of the execution log.
+
+Function Logs:
+START RequestId: fc08f028-4f87-401f-b6c5-08b5cbdb3190 Version: $LATEST
+[INFO]	2026-07-26T16:43:52.077Z	fc08f028-4f87-401f-b6c5-08b5cbdb3190	Event Received: {'detail': {'instance-id': 'i-0b3a57feeae2b1872', 'state': 'running'}}
+SUCCESS: Tagged Instance i-0b3a57feeae2b1872 with LaunchDate=2026-07-26 and Owner=DevOps-Automation
+END RequestId: fc08f028-4f87-401f-b6c5-08b5cbdb3190
+REPORT RequestId: fc08f028-4f87-401f-b6c5-08b5cbdb3190	Duration: 535.04 ms	Billed Duration: 536 ms	Memory Size: 128 MB	Max Memory Used: 101 MB
+
+Request ID: fc08f028-4f87-401f-b6c5-08b5cbdb3190
