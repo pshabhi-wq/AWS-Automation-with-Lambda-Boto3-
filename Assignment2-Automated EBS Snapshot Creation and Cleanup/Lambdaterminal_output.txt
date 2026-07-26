@@ -1,0 +1,22 @@
+Status: Succeeded
+Test Event Name: TestInvocation
+
+Response:
+{
+  "statusCode": 200,
+  "body": {
+    "Created": "snap-022e805b89767b840",
+    "Deleted": []
+  }
+}
+
+The area below shows the last 4 KB of the execution log.
+
+Function Logs:
+[INFO]	2026-07-26T15:52:41.595Z		Found credentials in environment variables.
+START RequestId: 4a176acc-9651-46da-be2a-a0708177f3ba Version: $LATEST
+CREATED SNAPSHOT: snap-022e805b89767b840 for Volume: vol-0ceac349b06768590
+END RequestId: 4a176acc-9651-46da-be2a-a0708177f3ba
+REPORT RequestId: 4a176acc-9651-46da-be2a-a0708177f3ba	Duration: 803.61 ms	Billed Duration: 1408 ms	Memory Size: 128 MB	Max Memory Used: 101 MB	Init Duration: 603.62 ms
+
+Request ID: 4a176acc-9651-46da-be2a-a0708177f3ba
