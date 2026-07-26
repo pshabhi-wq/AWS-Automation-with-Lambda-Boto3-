@@ -32,3 +32,6 @@ Discussion point: Mention AWS Budgets as the managed alternative and when custom
 Answer:
 
 AWS Budgets is great if we just want a standard email when your bill crosses 80% of a target. But if you want a daily automated summary sent to a Slack channel breaking down spend by specific services, or custom logic that flags sudden cost anomalies in real time, a Lambda function reading cost data gives you complete control.
+
+
+In iampolicy.json file, modify "Resource" with your respective ARN.
