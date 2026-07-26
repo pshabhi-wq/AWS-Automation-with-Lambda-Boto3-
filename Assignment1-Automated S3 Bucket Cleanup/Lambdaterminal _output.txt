@@ -1,0 +1,21 @@
+Status: Succeeded
+Test Event Name: TestInvocation
+
+Response:
+{
+  "statusCode": 200,
+  "body": "Deleted 3 stale objects from devops-s3-demo-2026."
+}
+
+The area below shows the last 4 KB of the execution log.
+
+Function Logs:
+[INFO]	2026-07-26T15:08:34.339Z		Found credentials in environment variables.
+START RequestId: 994ff0e5-f5b3-41b9-8357-29afe87aacc9 Version: $LATEST
+DELETED OBJECT: DNS entry in hostfile.JPG
+DELETED OBJECT: ALB.JPG
+DELETED OBJECT: Backend UI.JPG
+END RequestId: 994ff0e5-f5b3-41b9-8357-29afe87aacc9
+REPORT RequestId: 994ff0e5-f5b3-41b9-8357-29afe87aacc9	Duration: 666.42 ms	Billed Duration: 1208 ms	Memory Size: 128 MB	Max Memory Used: 96 MB	Init Duration: 541.20 ms
+
+Request ID: 994ff0e5-f5b3-41b9-8357-29afe87aacc9
