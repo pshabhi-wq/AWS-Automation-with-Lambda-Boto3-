@@ -1,0 +1,20 @@
+Status: Succeeded
+Test Event Name: TestInvocation
+
+Response:
+{
+  "statusCode": 200,
+  "body": "MTD Spend: $5.48 USD evaluated against $0.01"
+}
+
+The area below shows the last 4 KB of the execution log.
+
+Function Logs:
+[INFO]	2026-07-26T17:29:13.318Z		Found credentials in environment variables.
+START RequestId: f7d6081a-9b81-44c3-a9e5-3a7de1afa872 Version: $LATEST
+RETRIEVED MTD SPEND: $5.48 USD
+ALERT SENT to SNS Topic: arn:aws:sns:us-east-1:502768730616:Cost-Alert-Topic
+END RequestId: f7d6081a-9b81-44c3-a9e5-3a7de1afa872
+REPORT RequestId: f7d6081a-9b81-44c3-a9e5-3a7de1afa872	Duration: 678.11 ms	Billed Duration: 1173 ms	Memory Size: 128 MB	Max Memory Used: 94 MB	Init Duration: 494.71 ms
+
+Request ID: f7d6081a-9b81-44c3-a9e5-3a7de1afa872
